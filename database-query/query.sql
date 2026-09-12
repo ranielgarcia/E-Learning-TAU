@@ -1,4 +1,9 @@
 
+-- E-Learning for Tarlac Agriculture University, Agriculture Department -- canonical schema
+
+CREATE DATABASE IF NOT EXISTS ELearning_db;
+USE ELearning_db;
+
 CREATE TABLE IF NOT EXISTS ValidStudentNumbers(
 	id INT NOT NULL AUTO_INCREMENT,
 	stdNum CHAR(20),
